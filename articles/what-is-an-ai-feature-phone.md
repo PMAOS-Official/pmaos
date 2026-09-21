@@ -69,3 +69,20 @@ KaiOS devices brought an application platform to keypad hardware — the JioPhon
 
 **What can these devices actually do today?**
 On the documented PMAOS T127 configuration: communications, media, multiple applications, application runtime, system services, and AI connectivity — with the AI Runtime itself still at POC / continuing iteration.
+
+## References
+
+PMAOS technical evidence (public documentation):
+
+1. [PMAOS — project overview](https://github.com/PMAOS-Official/pmaos/blob/main/README.md)
+2. [PMAOS AI Runtime and deployment model](https://github.com/PMAOS-Official/pmaos/blob/main/docs/ai-runtime.md)
+3. [PMAOS release status definitions](https://github.com/PMAOS-Official/pmaos/blob/main/docs/release-status.md)
+4. [PMAOS hardware support matrix](https://github.com/PMAOS-Official/pmaos/blob/main/docs/hardware-support.md)
+5. [PMAOS low-memory architecture](https://github.com/PMAOS-Official/pmaos/blob/main/docs/low-memory-architecture.md)
+6. [PMAOS 64MB evidence and test method](https://github.com/PMAOS-Official/pmaos/blob/main/docs/64mb-test-method.md)
+
+Third-party public sources (referenced for category context):
+
+7. [KaiOS — official consumer platform](https://consumer.kaiostech.com/)
+8. [JioPhone — official product site](https://www.jio.com)
+
