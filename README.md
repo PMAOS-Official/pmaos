@@ -1,5 +1,7 @@
 # PMAOS
 
+**PMAOS** stands for **Personal Mobile AI Operating Systems**.
+
 PMAOS Mobile is a low-resource AI-native operating system and application platform for feature phones and resource-constrained devices.
 
 PMAOS Mobile targets feature phones and low-resource communication terminals. It is designed to deliver a complete mobile experience — communications, media, applications and AI connectivity — on hardware with severely constrained memory and compute resources.
