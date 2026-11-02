@@ -1,8 +1,21 @@
-# PMAOS Low-Memory Architecture
+# PMAOS low memory architecture
 
-This page describes the public low-resource design mechanisms that allow PMAOS Mobile to operate within 64MB total device RAM on the documented UNISOC T127 production platform. See the [README](../README.md) for an overview of PMAOS, and [Release Status](release-status.md) for status definitions.
+Last reviewed: **2 November 2026**.
 
-Mechanisms are described at the level of what each one does and why it matters on resource-constrained devices. Internal implementation details are not publicly documented.
+## Current memory statements
+
+PMAOS confirms **8MB RAM + 16MB Flash** as its regular minimum and a separate **4MB RAM + 4MB Flash** complete hybrid voice assistant configuration (27 October 2026). Those configurations are not an independent per board qualification or a promise that all applications, cameras and media workloads run in the same footprint.
+
+The older **T127 / 64MB total device RAM** record is a historical device configuration, not the universal OS minimum. RAM / Flash figures for the newer Uleway T127 demonstration have not been published; do not infer them from a chipset name or a previous board.
+
+- RAM holds live stacks, heaps, audio, graphics and network buffers.
+- Flash stores firmware, persistent assets and any local model data.
+- Total device memory, an application memory pool, model file size and peak working memory are different measurements.
+- A hybrid assistant uses remote resources where configured. The small memory figures do not establish an entirely local conversational LLM.
+
+## Design mechanisms
+
+The following public design description was documented for the historical T127 configuration. These mechanisms explain intended resource control, not a newly measured allocation or performance advantage for every current build. See [Feature phone capabilities](feature-phone-capabilities.md), [Hardware support](hardware-support.md) and [Historical 64MB test method](64mb-test-method.md).
 
 ## Compile-Time Trimming
 
@@ -37,4 +50,4 @@ Separates system components into isolated processes or tasks. On constrained dev
 - [AI Runtime](ai-runtime.md)
 - [64MB Test Method](64mb-test-method.md)
 
-Last reviewed: September 2026
+Historical design description: September 2026. Current configuration review: 2 November 2026.

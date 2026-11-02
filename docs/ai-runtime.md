@@ -1,8 +1,26 @@
-# PMAOS AI Runtime and Deployment Model
+# PMAOS AI runtime and deployment model
 
-Status: **POC / continuing iteration**. This is not a production claim. See [Release Status](release-status.md) for status definitions, and the [README](../README.md) for an overview of PMAOS.
+Last reviewed: **2 November 2026**.
 
-## Architecture
+## Current assistant status
+
+PMAOS confirmed on **27 October 2026** that its AI voice assistant is mature. The company confirms a regular 8MB RAM + 16MB Flash configuration and a separate 4MB RAM + 4MB Flash configuration supporting a complete hybrid voice assistant. These are company statements, not independent benchmarks or a claim that every runtime component is production ready.
+
+ASR (automatic speech recognition), language processing and TTS (text to speech) use local and cloud resources according to the build. A complete assistant can span both locations. It does not imply a general purpose LLM runs entirely in 4MB or 8MB RAM.
+
+## Concrete T127 examples
+
+The supplied T127 engineering summary describes local input, audio recording, response display, audio playback and OS service execution, with connected ASR, language processing and TTS. Local action execution does not establish offline speech understanding.
+
+A company supplied demonstration reviewed on **2 November 2026**, identified by PMAOS as newer **Uleway / UNISOC T127 hardware**, shows listening and thinking states followed by a camera preview after a Chinese “open camera” command. The specific firmware, latency and local / cloud allocation are not published. See [Feature phone capabilities](feature-phone-capabilities.md).
+
+Historical T127 instructions describe a 300ms long press as the activation threshold. That number is not response latency. A demo action does not validate every command, general conversation, wake word path, offline model or all supported chipsets.
+
+## Reading older documentation
+
+The **POC / continuing iteration** label below describes the September 2026 overall runtime baseline. It must not be used as a current blanket label for the company confirmed mature assistant. Conversely, the newer assistant confirmation does not turn each old component or additional board into a production claim. See [Release status](release-status.md).
+
+## Historical architecture: September 2026
 
 The on-device components of the PMAOS AI runtime include:
 
@@ -15,7 +33,7 @@ The on-device components of the PMAOS AI runtime include:
 - Capability discovery
 - Interface/version checks
 
-Publicly validated uses of the on-device lightweight neural networks:
+Uses described for the historical on-device lightweight neural networks:
 
 - Wake-word detection
 - Voice activity detection (VAD)
@@ -67,4 +85,4 @@ PMAOS does not claim that a general-purpose LLM runs locally within the document
 - [Low-Memory Architecture](low-memory-architecture.md)
 - [64MB Test Method](64mb-test-method.md)
 
-Last reviewed: September 2026
+Historical architecture last reviewed: September 2026

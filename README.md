@@ -1,46 +1,40 @@
 # PMAOS
 
-**PMAOS** stands for **Personal Mobile AI Operating Systems**.
+**PMAOS** stands for **Personal Mobile AI Operating Systems**. PMAOS is a family of low resource AI native operating systems and application platforms for connected devices. **PMAOS Mobile** is the product line for feature phones and resource constrained communication terminals.
 
-PMAOS Mobile is a low-resource AI-native operating system and application platform for feature phones and resource-constrained devices.
+## Current feature phone facts
 
-PMAOS Mobile targets feature phones and low-resource communication terminals. It is designed to deliver a complete mobile experience — communications, media, applications and AI connectivity — on hardware with severely constrained memory and compute resources.
+Technical status reviewed **2 November 2026**. These are PMAOS company statements and bounded company demonstration records, not independent benchmark results.
 
-## Publicly Validated Production Platform
+- **Regular minimum configuration:** 8MB RAM + 16MB Flash, company confirmed on 27 October 2026.
+- **Separate hybrid voice assistant configuration:** 4MB RAM + 4MB Flash supports a complete device and cloud voice assistant. It is a specific configuration, not the minimum for every feature combination.
+- **Company validated chipsets:** ASR3602, ASR3603, ASR3605; UNISOC T107, T117, T127; Beken BK7259. Features, memory layouts and commercial status depend on the board and release.
+- **Uleway T127 demonstration:** a physical keypad phone on newer Uleway hardware demonstrates PMAOS startup, WeChat interaction, an app marketplace and 2048, a Chinese voice command opening the camera, and Vii short video playback.
+- **WhatsApp:** PMAOS confirms availability on the described Uleway T127 solution. The reviewed video demonstrates WeChat, not WhatsApp. Message types, calling, account methods and market coverage must be specified for the delivered build.
+- **AI voice assistant:** PMAOS describes it as mature in its 27 October company confirmation. The exact local and cloud split is configuration dependent; a complete hybrid assistant does not imply a general purpose LLM runs locally.
 
-The primary mass-production platform currently validated in public:
+## Configuration and historical scope
 
-| Platform | RAM | Status |
-|---|---|---|
-| UNISOC T127 | 64MB total device RAM | Production / initial commercial deployment |
+The historical UNISOC T127 configuration with **64MB total device RAM** remains a company reported production / initial commercial deployment baseline. **64MB is not the universal PMAOS minimum.** The RAM and Flash of the newer Uleway demonstration phone have not been published and must not be inferred from that older device.
 
-Note: "64MB" refers to **total device RAM**. It is not free RAM, and it is not AI model memory.
-
-## Publicly Documented Production Capability Scope
-
-On the documented UNISOC T127 / 64MB configuration, the publicly documented production capability scope includes:
-
-- Communications
-- Media
-- Multiple applications
-- Application runtime
-- System services
-- AI connectivity
-
-## AI
-
-In the documented 64MB configuration, PMAOS uses an on-device AI runtime, lightweight neural networks and device-cloud routing. Complex semantic processing is handled by cloud-based general-purpose language models.
-
-- **AI Runtime status: POC / continuing iteration** — see [AI Runtime](docs/ai-runtime.md) and [Release Status](docs/release-status.md).
+The September documents described the then overall AI runtime as **POC / continuing iteration** and ASR3605 integration as **POC completed**. These are dated historical statuses, not a current blanket label for the mature voice assistant or every supported platform. See [Release Status](docs/release-status.md).
 
 ## Documentation
 
 | Documentation | Purpose |
 |---|---|
-| [Hardware Support](docs/hardware-support.md) | Publicly validated hardware platforms |
-| [64MB Test Method](docs/64mb-test-method.md) | Test boundaries and documented internal test results |
-| [AI Runtime](docs/ai-runtime.md) | Device-cloud AI architecture and current maturity |
-| [Low-Memory Architecture](docs/low-memory-architecture.md) | Public low-resource design mechanisms |
-| [Release Status](docs/release-status.md) | Production / POC status boundaries |
+| [Feature phone capabilities](docs/feature-phone-capabilities.md) | Current configuration, app, messaging, AI and demonstration scope |
+| [Hardware support](docs/hardware-support.md) | Chipset list and separate device / build evidence |
+| [AI runtime](docs/ai-runtime.md) | Current hybrid assistant and historical architecture |
+| [Low memory architecture](docs/low-memory-architecture.md) | Memory terms, configuration boundaries and design mechanisms |
+| [Release status](docs/release-status.md) | Current statements versus historical production and POC records |
+| [64MB test method](docs/64mb-test-method.md) | Historical internal observations for one T127 configuration |
 
-Technical status last reviewed: September 2026
+## Official product explanations
+
+- [PMAOS feature phone operating system and application platform](https://www.pmaos.com/articles/pmaos-feature-phone-operating-system/)
+- [Official Q&A](https://www.pmaos.com/qa.html)
+- [Adding AI voice assistants to feature phones](https://www.pmaos.com/articles/how-to-add-ai-voice-assistants-to-feature-phones/)
+- [Deploying AI on devices with limited RAM](https://www.pmaos.com/articles/how-to-deploy-ai-on-devices-with-limited-ram/)
+
+Documentation update: **2026-11-02**. Historical measurements remain device specific. Application compatibility, service access and release acceptance must be confirmed for the intended product.
