@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1160" viewBox="0 0 1800 1160">
+<rect width="1800" height="1160" fill="#f4f7fb"/>
+<text x="64" y="100" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#17243b">Feature phones on weak networks</text>
+<text x="66" y="154" font-family="Arial, sans-serif" font-size="28" font-weight="400" fill="#526279">Proposed design and acceptance framework • no PMAOS recovery measurements asserted</text>
+<rect x="64" y="228" width="1672" height="146" rx="18" fill="#ffffff" stroke="#dbe3ee" stroke-width="2"/>
+<rect x="65" y="229" width="8" height="144" rx="4" fill="#2457a6"/>
+<text x="92" y="282" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#2457a6">Start with the task dependency</text>
+<text x="92" y="336" font-family="Arial, sans-serif" font-size="28" font-weight="400" fill="#17243b">A signal icon does not establish access to every service.</text>
+<polyline points="900,374 900,396 330,396 330,424" fill="none" stroke="#aab8c9" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="330.0,424.0 322.6,408.7 337.4,408.7" fill="#aab8c9"/>
+<polyline points="900,374 900,396 900,396 900,424" fill="none" stroke="#aab8c9" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="900.0,424.0 892.6,408.7 907.4,408.7" fill="#aab8c9"/>
+<polyline points="900,374 900,396 1470,396 1470,424" fill="none" stroke="#aab8c9" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1470.0,424.0 1462.6,408.7 1477.4,408.7" fill="#aab8c9"/>
+<rect x="64" y="424" width="532" height="185" rx="18" fill="#ffffff" stroke="#dbe3ee" stroke-width="2"/>
+<rect x="65" y="425" width="8" height="183" rx="4" fill="#0f766e"/>
+<text x="92" y="478" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#0f766e">Local task</text>
+<text x="92" y="533" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">A function without a network</text>
+<text x="92" y="570" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">dependency</text>
+<rect x="634" y="424" width="532" height="185" rx="18" fill="#ffffff" stroke="#dbe3ee" stroke-width="2"/>
+<rect x="635" y="425" width="8" height="183" rx="4" fill="#6845a5"/>
+<text x="662" y="478" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#6845a5">Operator communication</text>
+<text x="662" y="533" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">Calls / SMS depend on modem and</text>
+<text x="662" y="570" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">operator conditions</text>
+<rect x="1204" y="424" width="532" height="185" rx="18" fill="#ffffff" stroke="#dbe3ee" stroke-width="2"/>
+<rect x="1205" y="425" width="8" height="183" rx="4" fill="#2457a6"/>
+<text x="1232" y="478" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#2457a6">Connected service</text>
+<text x="1232" y="533" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">AI, messaging or content with a</text>
+<text x="1232" y="570" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">remote dependency</text>
+<polyline points="330,609 330,637" fill="none" stroke="#aab8c9" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="330.0,637.0 322.6,621.7 337.4,621.7" fill="#aab8c9"/>
+<polyline points="900,609 900,637" fill="none" stroke="#aab8c9" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="900.0,637.0 892.6,621.7 907.4,621.7" fill="#aab8c9"/>
+<polyline points="1470,609 1470,637" fill="none" stroke="#aab8c9" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1470.0,637.0 1462.6,621.7 1477.4,621.7" fill="#aab8c9"/>
+<rect x="64" y="637" width="532" height="251" rx="18" fill="#edf8f4" stroke="#dbe3ee" stroke-width="2"/>
+<rect x="65" y="638" width="8" height="249" rx="4" fill="#0f766e"/>
+<text x="92" y="690" font-family="Arial, sans-serif" font-size="33" font-weight="700" fill="#0f766e">Validate local usability</text>
+<text x="92" y="744" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">Open, interact and return home.</text>
+<text x="92" y="781" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">Test the actual app and build.</text>
+<rect x="634" y="637" width="532" height="251" rx="18" fill="#f3effb" stroke="#dbe3ee" stroke-width="2"/>
+<rect x="635" y="638" width="8" height="249" rx="4" fill="#6845a5"/>
+<text x="662" y="690" font-family="Arial, sans-serif" font-size="33" font-weight="700" fill="#6845a5">Test separately</text>
+<text x="662" y="744" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">Record radio, operator and service</text>
+<text x="662" y="781" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">conditions.</text>
+<text x="662" y="818" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">Data failure is a different case.</text>
+<rect x="1204" y="637" width="532" height="251" rx="18" fill="#eaf1ff" stroke="#dbe3ee" stroke-width="2"/>
+<rect x="1205" y="638" width="8" height="249" rx="4" fill="#2457a6"/>
+<text x="1232" y="690" font-family="Arial, sans-serif" font-size="33" font-weight="700" fill="#2457a6">Define failure behavior</text>
+<text x="1232" y="744" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">Deadline • cancellation</text>
+<text x="1232" y="781" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">Bounded retries only when safe</text>
+<text x="1232" y="818" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">Handle stale responses</text>
+<text x="64" y="1090" font-family="Arial, sans-serif" font-size="25" font-weight="400" fill="#526279">Suggested checks only: record board, firmware, service and network condition. Bound queues and buffers; do not infer offline AI.</text>
+</svg>

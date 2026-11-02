@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1160" viewBox="0 0 1800 1160">
+<rect width="1800" height="1160" fill="#f4f7fb"/>
+<text x="64" y="100" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#17243b">Cloud-edge voice interaction</text>
+<text x="66" y="154" font-family="Arial, sans-serif" font-size="28" font-weight="400" fill="#526279">PMAOS T127 reference pattern • the local/cloud split varies by configuration</text>
+<rect x="64" y="218" width="820" height="776" rx="18" fill="#eaf1ff" stroke="#d7e3f5" stroke-width="2"/>
+<rect x="1044" y="218" width="692" height="596" rx="18" fill="#edf8f4" stroke="#d2e8df" stroke-width="2"/>
+<text x="94" y="272" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#2457a6">ON THE PHONE</text>
+<text x="1074" y="272" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f766e">CONNECTED SERVICES</text>
+<rect x="104" y="310" width="740" height="152" rx="18" fill="#ffffff" stroke="#dbe3ee" stroke-width="2"/>
+<rect x="105" y="311" width="8" height="150" rx="4" fill="#2457a6"/>
+<text x="132" y="364" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#2457a6">Capture input + show status</text>
+<text x="132" y="419" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">Key interaction and local audio capture</text>
+<rect x="1084" y="310" width="612" height="385" rx="18" fill="#ffffff" stroke="#dbe3ee" stroke-width="2"/>
+<rect x="1085" y="311" width="8" height="383" rx="4" fill="#0f766e"/>
+<text x="1112" y="364" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#0f766e">Build-specific processing</text>
+<text x="1112" y="419" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">Speech recognition (ASR)</text>
+<text x="1112" y="456" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">Language processing</text>
+<text x="1112" y="493" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">Speech synthesis (TTS)</text>
+<text x="1112" y="530" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b"></text>
+<text x="1112" y="567" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">Outputs may include text, audio or an</text>
+<text x="1112" y="604" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">action proposal.</text>
+<polyline points="844,374 1084,374" fill="none" stroke="#2457a6" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1084.0,374.0 1068.7,381.4 1068.7,366.6" fill="#2457a6"/>
+<text x="894" y="346" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#2457a6">Request</text>
+<rect x="104" y="585" width="740" height="184" rx="18" fill="#ffffff" stroke="#dbe3ee" stroke-width="2"/>
+<rect x="105" y="586" width="8" height="182" rx="4" fill="#6845a5"/>
+<text x="132" y="639" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#6845a5">Handle the returned response</text>
+<text x="132" y="694" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">Capability and permission checks for requested</text>
+<text x="132" y="731" font-family="Arial, sans-serif" font-size="29" font-weight="400" fill="#17243b">actions</text>
+<polyline points="1390,695 1390,760 928,760 928,670 844,670" fill="none" stroke="#0f766e" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="844.0,670.0 859.3,662.6 859.3,677.4" fill="#0f766e"/>
+<text x="1060" y="798" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#0f766e">Response / action proposal</text>
+<rect x="104" y="828" width="740" height="146" rx="18" fill="#ffffff" stroke="#dbe3ee" stroke-width="2"/>
+<rect x="105" y="829" width="8" height="144" rx="4" fill="#2457a6"/>
+<text x="132" y="881" font-family="Arial, sans-serif" font-size="33" font-weight="700" fill="#2457a6">Present or execute</text>
+<text x="132" y="933" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#17243b">Display • audio playback • supported device action</text>
+<polyline points="474,769 474,828" fill="none" stroke="#2457a6" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="474.0,828.0 466.6,812.7 481.4,812.7" fill="#2457a6"/>
+<text x="64" y="1090" font-family="Arial, sans-serif" font-size="25" font-weight="400" fill="#526279">Reference architecture, not an SDK contract. The demonstration does not establish latency, offline recognition or a local general-purpose LLM.</text>
+</svg>
